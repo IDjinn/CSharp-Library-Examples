@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExample.Global.API", "LibraryExample.Global.API\LibraryExample.Global.API.csproj", "{97DFD1B0-A38D-4C01-AC5D-21FA7E05DD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExample.Redis.Client", "LibraryExample.Redis\LibraryExample.Redis.Client\LibraryExample.Redis.Client.csproj", "{CD619C34-DFF5-4429-8D8D-377A86D9B96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExample.Redis.Client.API", "LibraryExample.Redis\LibraryExample.Redis.Client.API\LibraryExample.Redis.Client.API.csproj", "{1E21094A-14AA-4909-88EE-00C33A1B2EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExample.Redis.Client.WebAPI", "LibraryExample.Redis\LibraryExample.Redis.Client.WebAPI\LibraryExample.Redis.Client.WebAPI.csproj", "{BCB3245F-F515-4FC5-A12E-6FE38256131F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97DFD1B0-A38D-4C01-AC5D-21FA7E05DD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DFD1B0-A38D-4C01-AC5D-21FA7E05DD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DFD1B0-A38D-4C01-AC5D-21FA7E05DD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DFD1B0-A38D-4C01-AC5D-21FA7E05DD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD619C34-DFF5-4429-8D8D-377A86D9B96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD619C34-DFF5-4429-8D8D-377A86D9B96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD619C34-DFF5-4429-8D8D-377A86D9B96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD619C34-DFF5-4429-8D8D-377A86D9B96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E21094A-14AA-4909-88EE-00C33A1B2EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E21094A-14AA-4909-88EE-00C33A1B2EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E21094A-14AA-4909-88EE-00C33A1B2EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E21094A-14AA-4909-88EE-00C33A1B2EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB3245F-F515-4FC5-A12E-6FE38256131F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB3245F-F515-4FC5-A12E-6FE38256131F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB3245F-F515-4FC5-A12E-6FE38256131F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB3245F-F515-4FC5-A12E-6FE38256131F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
